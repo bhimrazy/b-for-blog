@@ -18,9 +18,13 @@ export default function Index() {
             name="twitter:image"
             content="https://b-for-blog.vercel.app/b-for-blog.png"
           />
-          <meta property="og:url" content="https://b-for-blog.vercel.app" />
+          <meta
+            property="og:url"
+            content="https://b-for-blog.vercel.app/easywire"
+          />
           <meta property="og:type" content="article" />
           <meta property="og:title" content="Dashboard | b-for-blog.com" />
+          <link rel="canonical" href="https://b-for-blog.vercel.app/easywire" />
           <meta
             property="og:description"
             content="Web Implementaion of Mockup."
