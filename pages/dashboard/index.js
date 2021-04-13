@@ -30,7 +30,7 @@ export default function Index() {
             <div className="mx-2 my-1">
               <nav className="pb-4 pt-2">
                 <ul>
-                  <li className="items-center bg-gray-800 bg-opacity-40 p-2 rounded-full sm:rounded-md">
+                  <li className="items-center bg-cool-800 bg-opacity-40 p-2 rounded-full sm:rounded-md transition ease-in-out duration-500 hover:bg-cool-800 hover:bg-opacity-60 cursor-pointer">
                     <a
                       href="/"
                       title="Home"
@@ -55,7 +55,7 @@ export default function Index() {
                       </p>
                     </a>
                   </li>
-                  <li className="items-center p-2 rounded-md">
+                  <li className="items-center p-2 rounded-md mt-1 transition ease-in-out duration-500 hover:bg-cool-800 hover:bg-opacity-20 cursor-pointer">
                     <a
                       href="/"
                       title="History"
@@ -80,7 +80,7 @@ export default function Index() {
                       </p>
                     </a>
                   </li>
-                  <li className="items-center p-2 rounded-md">
+                  <li className="items-center p-2 rounded-md mt-1 transition ease-in-out duration-500 hover:bg-cool-800 hover:bg-opacity-20 cursor-pointer">
                     <a
                       href="/"
                       title="Balances"
@@ -105,7 +105,7 @@ export default function Index() {
                       </p>
                     </a>
                   </li>
-                  <li className="items-center p-2 rounded-md">
+                  <li className="items-center p-2 rounded-md mt-1 transition ease-in-out duration-500 hover:bg-cool-800 hover:bg-opacity-20 cursor-pointer">
                     <a
                       href="/"
                       title="Cards"
@@ -130,7 +130,7 @@ export default function Index() {
                       </p>
                     </a>
                   </li>
-                  <li className="items-center p-2 rounded-md">
+                  <li className="items-center p-2 rounded-md mt-1 transition ease-in-out duration-500 hover:bg-cool-800 hover:bg-opacity-20 cursor-pointer">
                     <a
                       href="/"
                       title="Reports"
@@ -289,7 +289,7 @@ export default function Index() {
                     objectFit="cover"
                     loading="eager"
                   />
-                  <p className="text-sm font-medium">
+                  <p className="text-sm font-medium flex flex-row">
                     John <span className="hidden sm:block">Doe</span>
                   </p>
                   <svg
@@ -370,10 +370,10 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="flex flex-row space-x-3 pt-4 lg:p-4">
-                  <button className="text-sm border border-opacity-90  rounded-md text-gray-800 px-3 py-1 focus:outline-none">
+                  <button className="text-sm border border-opacity-90  rounded-md text-gray-800 px-3 py-1 focus:outline-none transition ease-in-out duration-500 hover:bg-cool-100">
                     Add money
                   </button>
-                  <button className="text-sm  bg-[#036672] rounded-md text-white px-3 py-1 focus:outline-none">
+                  <button className="text-sm  bg-[#036672] rounded-md text-white px-3 py-1 focus:outline-none transition ease-in-out duration-500 hover:bg-opacity-80">
                     Send money
                   </button>
                 </div>
@@ -497,7 +497,7 @@ export default function Index() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="border-b border-cool-200 bg-white font-medium">
+                    <tr className="border-b border-cool-200 bg-white font-medium transition ease-in-out duration-500 hover:bg-cool-100 cursor-pointer">
                       <td className="px-5 py-3 text-left text-xs text-cool-500 flex flex-row items-center">
                         <svg
                           className="w-5 h-5 opacity-70 mr-2"
@@ -525,7 +525,7 @@ export default function Index() {
                         May 5,2020
                       </td>
                     </tr>
-                    <tr className="border-b border-cool-200 bg-white font-medium">
+                    <tr className="border-b border-cool-200 bg-white font-medium transition ease-in-out duration-500 hover:bg-cool-100 cursor-pointer">
                       <td className="px-5 py-3 text-left text-xs text-cool-500 flex flex-row items-center">
                         <svg
                           className="w-5 h-5 mr-2 opacity-70"
@@ -555,7 +555,7 @@ export default function Index() {
                         April 28,2020
                       </td>
                     </tr>
-                    <tr className="border-b border-cool-200 bg-white font-medium">
+                    <tr className="border-b border-cool-200 bg-white font-medium transition ease-in-out duration-500 hover:bg-cool-100 cursor-pointer">
                       <td className="px-5 py-3 text-left text-xs text-cool-500 flex flex-row items-center">
                         <svg
                           className="w-5 h-5 mr-2 opacity-70"
@@ -583,7 +583,7 @@ export default function Index() {
                         April 9,2020
                       </td>
                     </tr>
-                    <tr className="border-b border-cool-200 bg-white font-medium">
+                    <tr className="border-b border-cool-200 bg-white font-medium transition ease-in-out duration-500 hover:bg-cool-100 cursor-pointer">
                       <td className="px-5 py-3 text-left text-xs text-cool-500 flex flex-row items-center">
                         <svg
                           className="w-4 h-4 mr-3 opacity-70 text-white bg-cool-500 rounded-full"
@@ -613,7 +613,7 @@ export default function Index() {
                         April 9,2020
                       </td>
                     </tr>
-                    <tr className="border-b border-cool-200 bg-white font-medium">
+                    <tr className="border-b border-cool-200 bg-white font-medium transition ease-in-out duration-500 hover:bg-cool-100 cursor-pointer">
                       <td className="px-5 py-3 text-left text-xs text-cool-500 flex flex-row items-center">
                         <svg
                           className="w-5 h-5 mr-2 opacity-70"
@@ -643,7 +643,7 @@ export default function Index() {
                         March 28,2020
                       </td>
                     </tr>
-                    <tr className="border-b border-cool-200 bg-white font-medium">
+                    <tr className="border-b border-cool-200 bg-white font-medium transition ease-in-out duration-500 hover:bg-cool-100 cursor-pointer">
                       <td className="px-5 py-3 text-left text-xs text-cool-500 flex flex-row items-center">
                         <svg
                           className="w-5 h-5 mr-2 opacity-70"
@@ -671,7 +671,7 @@ export default function Index() {
                         March 9,2020
                       </td>
                     </tr>
-                    <tr className="border-b border-cool-200 bg-white font-medium">
+                    <tr className="border-b border-cool-200 bg-white font-medium transition ease-in-out duration-500 hover:bg-cool-100 cursor-pointer">
                       <td className="px-5 py-3 text-left text-xs text-cool-500 flex flex-row items-center">
                         <svg
                           className="w-4 h-4 mr-3 opacity-70 text-white bg-cool-500 rounded-full"
