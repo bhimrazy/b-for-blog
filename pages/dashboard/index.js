@@ -9,7 +9,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-row">
-        <div className="bg-[#036672] min-h-screen sm:w-4/12 md:w-3/12 lg:w-2/12">
+        <div className="bg-[#036672] min-h-screen w-1/12 sm:w-4/12 md:w-3/12 lg:w-2/12">
           <aside className="h-screen sticky top-0">
             <div className=" border-b-[1px] p-3 border-teal-200 border-opacity-50">
               <a href="/" title="Dashboard" className="flex flex-row space-x-2">
