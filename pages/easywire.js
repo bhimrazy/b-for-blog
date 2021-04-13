@@ -5,35 +5,52 @@ export default function Index() {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@b-for-blog" />
-        <meta name="twitter:creator" content="@bhimrazyadav" />
-        <meta name="twitter:title" content="Dashboard | b-for-blog.com" />
+        <title>Meta Tags — Preview, Edit and Generate</title>
+        <meta name="title" content="Easywire | Dashboard | b-for-blog.com" />
         <meta
-          name="twitter:description"
-          content="Web Implementaion of Mockup."
+          name="description"
+          content="Web Implementaion of Mockup Design."
         />
-        <meta
-          name="twitter:image"
-          content="https://b-for-blog.vercel.app/b-for-blog.png"
-        />
+
+        <meta property="og:type" content="website" />
         <meta
           property="og:url"
           content="https://b-for-blog.vercel.app/easywire"
         />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Dashboard | b-for-blog.com" />
-        <link rel="canonical" href="https://b-for-blog.vercel.app/easywire" />
+        <meta
+          property="og:title"
+          content="Easywire | Dashboard | b-for-blog.com"
+        />
         <meta
           property="og:description"
-          content="Web Implementaion of Mockup."
+          content="Web Implementaion of Mockup Design."
         />
         <meta
           property="og:image"
           content="https://b-for-blog.vercel.app/b-for-blog.png"
         />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://b-for-blog.vercel.app/easywire"
+        />
+        <meta
+          property="twitter:title"
+          content="Easywire | Dashboard | b-for-blog.com"
+        />
+        <meta
+          property="twitter:description"
+          content="Web Implementaion of Mockup Design."
+        />
+        <meta
+          property="twitter:image"
+          content="https://b-for-blog.vercel.app/b-for-blog.png"
+        />
+
+        <link rel="canonical" href="https://b-for-blog.vercel.app/easywire" />
+
         <title>Dashboard | B For Blog | Bhimraj Yadav</title>
-        <meta name="description" content="Web Implementaion of Mockup." />
       </Head>
 
       <div className="flex flex-row">
