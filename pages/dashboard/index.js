@@ -262,7 +262,7 @@ export default function Index() {
                   </svg>
                   <input
                     className="text-sm px-2 focus:outline-none"
-                    placeholder="Search Transactions"
+                    placeholder="Search transactions"
                   />
                 </div>
                 <div className="p-1 flex flex-row space-x-2 justify-center items-center">
@@ -289,7 +289,9 @@ export default function Index() {
                     objectFit="cover"
                     loading="eager"
                   />
-                  <p className="text-sm font-medium">John Doe</p>
+                  <p className="text-sm font-medium">
+                    John <span className="hidden sm:block">Doe</span>
+                  </p>
                   <svg
                     class="w-4 h-4 text-gray-500 cursor-pointer"
                     fill="none"
