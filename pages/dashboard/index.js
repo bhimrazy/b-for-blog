@@ -5,34 +5,33 @@ export default function Index() {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <Head>
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@b-for-blog" />
-          <meta name="twitter:creator" content="@bhimrazyadav" />
-          <meta name="twitter:title" content="Dashboard | b-for-blog.com" />
-          <meta
-            name="twitter:description"
-            content="Web Implementaion of Mockup."
-          />
-          <meta
-            name="twitter:image"
-            content="https://b-for-blog.vercel.app/b-for-blog.png"
-          />
-          <meta property="og:url" content="https://b-for-blog.vercel.app" />
-          <meta property="og:type" content="article" />
-          <meta property="og:title" content="Dashboard | b-for-blog.com" />
-          <meta
-            property="og:description"
-            content="Web Implementaion of Mockup."
-          />
-          <meta
-            property="og:image"
-            content="https://b-for-blog.vercel.app/b-for-blog.png"
-          />
-          <title>Dashboard | B For Blog | Bhimraj Yadav</title>
-          <meta name="description" content="Web Implementaion of Mockup." />
-        </Head>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@b-for-blog" />
+        <meta name="twitter:creator" content="@bhimrazyadav" />
+        <meta name="twitter:title" content="Dashboard | b-for-blog.com" />
+        <meta
+          name="twitter:description"
+          content="Web Implementaion of Mockup."
+        />
+        <meta
+          name="twitter:image"
+          content="https://b-for-blog.vercel.app/b-for-blog.png"
+        />
+        <meta property="og:url" content="https://b-for-blog.vercel.app" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Dashboard | b-for-blog.com" />
+        <meta
+          property="og:description"
+          content="Web Implementaion of Mockup."
+        />
+        <meta
+          property="og:image"
+          content="https://b-for-blog.vercel.app/b-for-blog.png"
+        />
+        <title>Dashboard | B For Blog | Bhimraj Yadav</title>
+        <meta name="description" content="Web Implementaion of Mockup." />
       </Head>
+
       <div className="flex flex-row">
         <div className="bg-[#036672] min-h-screen sm:w-4/12 md:w-3/12 lg:w-2/12">
           <aside className="h-screen sticky top-0">
