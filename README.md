@@ -1,8 +1,41 @@
-# Next.js + Tailwind CSS Example
+# B FOR BLOG
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## A web app for simple blog made with NextJs and tailwindcss.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+- [What is this?](#what-is-this)
+- [Features](#features)
+- [Setup](#setup)
+- [Demo](#demo)
+- [Deploy your own](#deploy-your-own)
+- [Notes about this app](#notes-about-this-app)
+  - [Interesting things to try](#interesting-things-to-try)
+- [Built by (A-Z)](#built-by-a-z)
+- [License](#license)
+
+## What is this?
+
+This is a web app built with NextJs,TailwindCSS,firebase and Redis.This talk includes a walkthrough of the demo code and highlights key points of how Server Components work and what features they provide.
+
+## Features
+
+    - Landing page
+    - Login Functionality
+    - Dashboard
+
+## Setup
+
+You will need to have nodejs >=14.9.0 in order to run this demo. [Node 14 LTS](https://nodejs.org/en/about/releases/) is a good choice!
+
+```
+npm install
+npm run dev
+```
+
+(Or `npm run build` for a production build.)
+
+## Demo
+
+![Dashboard Image](/public/b-for-blog.png)
 
 ## Deploy your own
 
@@ -10,14 +43,22 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+## Notes about this app
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+The app is a blog creating app called **B For Blog**. It consists of a few major parts:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- It uses NextJS and TailwindCSS as it's main component.
+- A Vercel serverless api that:
+  - Serves API endpoints used in the app
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Interesting things to try
+
+- Add some interesing features like comments,etc.
+
+## Built by (A-Z)
+
+- [Bhimraj Yadav](https://twitter.com/bhimrazyadav)
+
+## License
+
+This demo is MIT licensed.
