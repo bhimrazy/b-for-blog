@@ -30,6 +30,18 @@ export default function Index() {
         />
         <title>Dashboard | B For Blog | Bhimraj Yadav</title>
         <meta name="description" content="Web Implementaion of Mockup." />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="64x64"
+          href="/favicon-64x64.png"
+        />
       </Head>
 
       <div className="flex flex-row">

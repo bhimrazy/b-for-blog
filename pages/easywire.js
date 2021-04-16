@@ -50,6 +50,18 @@ export default function Index() {
         <link rel="canonical" href="https://b-for-blog.vercel.app/easywire" />
 
         <title>Dashboard | B For Blog | Bhimraj Yadav</title>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="64x64"
+          href="/favicon-64x64.png"
+        />
       </Head>
 
       <div className="flex flex-row">
