@@ -6,11 +6,11 @@ export default function Popular({title}) {
       <h3 className="text-3xl font-extrabold text-gray-900 py-7">
        {title}
       </h3>
-      <div className="col-span-3 grid sm:grid-cols-2 md:grid-cols-2 gap-6 sm:gap-y-8 lg:gap-x-8">
+      <div className="col-span-3 grid sm:grid-cols-2 lg:grid-cols-3  gap-6 sm:gap-y-8 lg:gap-x-8">
         <a href="/">
-        <article className="flex flex-col sm:p-o">
+        <article className="flex flex-col">
           <img
-            className="w-96 bg-cover bg-center object-cover rounded-lg shadow-lg"
+            className="h-48 w-96 bg-cover bg-center object-cover rounded-lg shadow-lg"
             src="/falcon.jpg"
             alt="Falcon"
             loading="lazy"
