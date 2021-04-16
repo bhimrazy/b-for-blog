@@ -6,13 +6,13 @@ export default function Header() {
     setMenu((v) => !v);
   };
   return (
-    <header className="max-w-7xl container mx-auto px-8 sm:px-16">
+    <header className="max-w-7xl container mx-auto px-8 sm:px-20">
       <div className="flex flex-row justify-between items-center">
         <a href="/" alt="B-FOR-BLOG">
           <img className="h-8 w-auto" src="logo.svg" alt="B-FOR-BLOG" />
         </a>
         <nav className="hidden sm:block">
-          <ul className="flex flex-row space-x-3 transition-all duration-500">
+          <ul className="flex flex-row space-x-4 transition-all duration-500">
             <li className="uppercase font-poppins font-medium text-cool-600  hover:text-cool-800 border-b-2 border-transparent hover:border-cyan-500">
               <a href="/" alt="Home">
                 Home
