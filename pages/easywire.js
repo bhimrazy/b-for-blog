@@ -5,7 +5,6 @@ export default function Index() {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>Meta Tags — Preview, Edit and Generate</title>
         <meta name="title" content="Easywire | Dashboard | b-for-blog.com" />
         <meta
           name="description"
