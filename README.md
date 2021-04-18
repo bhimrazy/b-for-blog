@@ -1,7 +1,9 @@
+<div align="center">
 ![Logo](/public/logo.svg)
 
-# B FOR BLOG
+# **B FOR BLOG**
 
+</div>
 ## A web app for simple blog made with NextJs and tailwindcss.
 
 - [What is this?](#what-is-this)
