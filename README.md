@@ -1,11 +1,11 @@
 <div align="center">
-![Logo](/public/logo.svg)
+![Logo](/public/logo.png)
 
 # **B FOR BLOG**
 
-</div>
 ## A web app for simple blog made with NextJs and tailwindcss.
 
+</div>
 - [What is this?](#what-is-this)
 - [Features](#features)
 - [Setup](#setup)
