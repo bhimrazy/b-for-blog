@@ -1,3 +1,5 @@
+![Logo](/public/logo.png)
+
 # B FOR BLOG
 
 ## A web app for simple blog made with NextJs and tailwindcss.
@@ -35,8 +37,7 @@ npm run dev
 
 ## Demo
 
-![Logo](/public/logo.png)
-![LAnding Page](/public/bforblog.png)
+![Landing Page](/public/bforblog.png)
 ![Dashboard Image](/public/dashboard.png)
 ![Test Dashboard Image](/public/b-for-blog.png)
 
