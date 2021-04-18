@@ -10,7 +10,7 @@ export default function Overview() {
         </small>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 rounded-lg bg-bluegray-700">
-        <div className="flex flex-col border-b sm:border-b sm:border-r lg:border-b-0 lg:border-r border-cool-500 transition ease-in-out duration-500 hover:bg-bluegray-900 cursor-pointer rounded-l-lg ">
+        <div className="flex flex-col border-b sm:border-b sm:border-r lg:border-b-0 lg:border-r border-cool-500">
           <div className="flex flex-row px-4 md:px-8  py-6 space-x-4 items-center">
             <svg
               className="w-8 h-8 text-cool-400"
@@ -52,7 +52,7 @@ export default function Overview() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col border-b sm:border-b lg:border-b-0 lg:border-r border-cool-500 transition ease-in-out duration-500 hover:bg-bluegray-900 cursor-pointer rounded-l-lg ">
+        <div className="flex flex-col border-b sm:border-b lg:border-b-0 lg:border-r border-cool-500">
           <div className="flex flex-row px-4 md:px-8  py-6 space-x-4 items-center">
             <svg
               className="w-8 h-8 text-cool-400"
@@ -86,7 +86,7 @@ export default function Overview() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col transition ease-in-out duration-500 hover:bg-bluegray-900 cursor-pointer rounded-r-lg ">
+        <div className="flex flex-col">
           <div className="flex flex-row px-4 md:px-8  py-6 space-x-4 items-center ">
             <svg
               className="w-8 h-8 text-cool-400"
