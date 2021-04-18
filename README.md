@@ -35,7 +35,10 @@ npm run dev
 
 ## Demo
 
-![Dashboard Image](/public/b-for-blog.png)
+![Logo](/public/logo.png)
+![LAnding Page](/public/bforblog.png)
+![Dashboard Image](/public/dashboard.png)
+![Test Dashboard Image](/public/b-for-blog.png)
 
 ## Deploy your own
 
