@@ -41,7 +41,7 @@ npm run dev
 
 ## Demo
 
-![Landing Page](/public/bforblog.png)
+![Landing Page](/public/landing.png)
 ![Dashboard Image](/public/dashboard.png)
 ![Test Dashboard Image](/public/b-for-blog.png)
 
