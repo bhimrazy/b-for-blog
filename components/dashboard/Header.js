@@ -151,7 +151,7 @@ export default function Header() {
             menu
               ? `transform translate-x-0 transition ease-in-out duration-200`
               : `transform -translate-x-full transition ease-in-out duration-200`
-          } fixed top-0 left-0 h-full w-5/6 bg-cool-800  rounded-l-none rounded-lg shadow-xl z-10`}
+          } fixed top-0 left-0 h-full bg-cool-800  rounded-l-none rounded-lg shadow-xl z-10`}
         >
           <div className="flex flex-col">
             <div className="flex-shrink border-b border-cool-500 px-6 py-[13px]">
