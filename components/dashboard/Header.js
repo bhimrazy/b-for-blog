@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from "react";
 
-export default function Header() {
+export default function Header({ title }) {
   const [menu, setMenu] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const handleClick = () => {
@@ -15,18 +15,20 @@ export default function Header() {
       <header className="bg-cool-800">
         <div className="max-w-7xl container mx-auto px-8 sm:px-14 lg:px-20 flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <img
-                className="h-8 w-8 hidden sm:block"
-                src="icon.svg"
-                alt="B-FOR-BLOG"
-              />
-              <img
-                className="h-9 w-auto sm:hidden"
-                src="footer-logo.svg"
-                alt="B-FOR-BLOG"
-              />
-            </div>
+            <a href="/dashboard">
+              <div className="flex-shrink-0">
+                <img
+                  className="h-8 w-8 hidden sm:block"
+                  src="/icon.svg"
+                  alt="B-FOR-BLOG"
+                />
+                <img
+                  className="h-9 w-auto sm:hidden"
+                  src="/footer-logo.svg"
+                  alt="B-FOR-BLOG"
+                />
+              </div>
+            </a>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 {navigation.map((item, itemIdx) =>
@@ -44,7 +46,7 @@ export default function Header() {
                     <a
                       key={item}
                       href="#"
-                      className="text-cool-300 hover:bg-cool-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                      className="text-cool-300 hover:bg-cool-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:bg-cool-900"
                     >
                       {item}
                     </a>
@@ -54,7 +56,7 @@ export default function Header() {
             </div>
           </div>
           <div className="ml-4 flex items-center md:ml-6">
-            <button className="bg-cool-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+            <button className="bg-cool-800 p-1 rounded-full text-gray-400 hover:text-white focus:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
               <span className="sr-only">View notifications</span>
               <svg
                 className="w-6 h-6"
@@ -73,15 +75,8 @@ export default function Header() {
               </svg>
             </button>
 
-            <div className="ml-3 relative transition ease-in-out duration-500">
+            <div className="ml-3 relative">
               <div>
-                <button
-                  onClick={handleDropdown}
-                  className={`${
-                    dropdown ? ` ` : `hidden`
-                  } fixed inset-0 w-full h-full`}
-                  tabindex="-1"
-                ></button>
                 <button
                   type="button"
                   className="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
@@ -97,6 +92,13 @@ export default function Header() {
                     alt=""
                   />
                 </button>
+                <button
+                  onClick={handleDropdown}
+                  className={`${
+                    dropdown ? ` ` : `hidden`
+                  } fixed inset-0 w-full h-full cursor-default`}
+                  tabIndex="-1"
+                ></button>
               </div>
               <div
                 className={`${
@@ -105,13 +107,13 @@ export default function Header() {
                 role="menu"
                 aria-orientation="vertical"
                 aria-labelledby="user-menu-button"
-                tabindex="-1"
+                tabIndex="-1"
               >
                 <a
                   href="#"
                   className="block px-4 py-2 text-sm text-gray-700 focus:outline-none bg-cool-50 hover:bg-cool-100"
                   role="menuitem"
-                  tabindex="-1"
+                  tabIndex="-1"
                   id="user-menu-item-0"
                 >
                   Your Profile
@@ -121,7 +123,7 @@ export default function Header() {
                   href="#"
                   className="block px-4 py-2 text-sm text-gray-700 focus:outline-none hover:bg-cool-100"
                   role="menuitem"
-                  tabindex="-1"
+                  tabIndex="-1"
                   id="user-menu-item-1"
                 >
                   Settings
@@ -131,7 +133,7 @@ export default function Header() {
                   href="#"
                   className="block px-4 py-2 text-sm text-gray-700 focus:outline-none hover:bg-cool-100"
                   role="menuitem"
-                  tabindex="-1"
+                  tabIndex="-1"
                   id="user-menu-item-2"
                 >
                   Sign out
@@ -142,7 +144,7 @@ export default function Header() {
         </div>
       </header>
       <div className="max-w-7xl container mx-auto px-8 py-6 sm:px-20 justify-start">
-        <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
+        <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
       </div>
       {/* Sidebar */}
       <div className="relative sm:hidden">
@@ -191,7 +193,7 @@ export default function Header() {
         <button
           onClick={handleClick}
           className={`${menu ? ` ` : `hidden`} fixed inset-0 w-full h-full`}
-          tabindex="-1"
+          tabIndex="-1"
         ></button>
         <button
           onClick={handleClick}

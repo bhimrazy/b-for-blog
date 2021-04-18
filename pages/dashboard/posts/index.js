@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Layout from "../../components/dashboard/Layout";
+import Layout from "../../../components/dashboard/Layout";
 
 export default function index() {
   return (
@@ -28,9 +28,9 @@ export default function index() {
           href="/favicon-64x64.png"
         />
       </Head>
-      <Layout title="Dashboard">
+      <Layout title="Posts">
         <main className="w-full">
-          <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+          <div className="max-w-7xl container mx-auto px-8 sm:px-14 lg:px-20 ">
             {/* Replace with your content */}
             <div className="px-4 py-6 sm:px-0">
               <div className="border-4 border-dashed border-gray-200 rounded-lg h-96" />
