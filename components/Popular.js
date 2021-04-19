@@ -14,7 +14,7 @@ export default function Popular({ title }) {
               width={1920}
               height={1280}
               loading="eager"
-              quality={20}
+              quality={10}
             />
             <div className="flex flex-col space-y-1">
               <p className="text-cool-500 text-sm tracking-wide pt-4">
@@ -46,7 +46,7 @@ export default function Popular({ title }) {
               width={1920}
               height={1280}
               loading="eager"
-              quality={20}
+              quality={10}
             />
             <div className="flex flex-col space-y-1">
               <p className="text-cool-500 text-sm tracking-wide pt-4">
@@ -78,7 +78,7 @@ export default function Popular({ title }) {
               width={1920}
               height={1280}
               loading="eager"
-              quality={20}
+              quality={10}
             />
             <div className="flex flex-col space-y-1">
               <p className="text-cool-500 text-sm tracking-wide pt-4">
